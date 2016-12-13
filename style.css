@@ -1,0 +1,25 @@
+
+/*Header*/
+#logo img{
+	width: 250px;
+}
+
+#navigation ul {	
+	text-align: center;
+}
+
+#navigation > ul > li {
+	font-size: 17px;
+	padding-top: 15px;
+	padding-left: 60px;
+}
+
+.nav .nav-pills > .active > li > a {
+	background-color: #fff568;
+	color: black;
+}
+
+/*.nav .nav-pills > li > a:hover, .nav .nav-pills > li > a:focus {
+	background-color: #fff568;
+	color: black;
+}*/
