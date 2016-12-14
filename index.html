@@ -13,92 +13,82 @@
 	</head>
 
 	<body>
-		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-7">
-				<a id="logo" href="index.html"><img src="pix/star-logo.png" class="img-responsive" alt="companyLogo"></a>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div id="navigation">
-					<ul class="list-inline nav nav-pills" >
-						<li role="presentation" class="active"><a href="#">Giới Thiệu</a></li>
-						<li role="presentation" class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-								Sản phẩm <span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Tờ rơi</a></li>
-								<li><a href="#">Poster</a></li>
-								<li><a href="#">Thiệp</a></li>
-							</ul>
-						</li>
-						<li role="presentation"><a href="#">Khách hàng</a></li>
-						<li role="presentation"><a href="#">Tuyển dụng</a></li>
-						<li role="presentation"><a href="#">Liên hệ</a></li>
-					</ul>
+		<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+	   			<div class="navbar-header">
+		      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      		</button>
+		      		<a class="navbar-left" href="#"><img src="pix/star-logo.png" alt="companyLogo"></a>
+	    		</div>
+
+	    		<!-- Collect the nav links, forms, and other content for toggling -->
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	     			 <ul class="nav navbar-nav">
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Our Vision</a></li>
+				            <li><a href="#">Our Team</a></li>
+				            <li><a href="#">Our Events</a></li>
+				          </ul>
+			        	</li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Catalogue</a></li>
+				            <li><a href="#">Brochure</a></li>
+				            <li><a href="#">Leaflet</a></li>
+				            <li><a href="#">Poster</a></li>
+				            <li><a href="#">Folder</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Agenda</a></li>
+				            <li><a href="#">Calendar</a></li>
+				            <li><a href="#">Newsletter</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Other products</a></li>
+				          </ul>
+				        </li>
+				        <li><a href="#">Clients</a></li>
+				        <li><a href="#">Careers</a></li>
+				        <li><a href="#">Blog</a></li>
+				        <li><a href="#">Contact</a></li>
+				    </ul>
+			      	<form class="navbar-form navbar-left">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Submit</button>
+			      	</form>
+			      	<ul class="nav navbar-nav navbar-right">
+				        <li><a href="#"><img src="pix/fb-logo.jpg" width="30" alt="facebook"></a></li>
+				        <li><a href="#"><img src="pix/tumblr-logo.png" width="30" alt="tumblr"></a></li>
+				        <li><a href="#"><img src="pix/pinterest-logo.png" width="30" alt="pinterest"></a></li>
+				        <li><a href="#"><img src="pix/gplus-logo.jpg" width="30" alt="google+"></a></li>
+			      	</ul>
+	    		</div><!-- /.navbar-collapse -->
+	  		</div><!-- /.container-fluid -->
+		</nav>
+
+
+		<div id="intro">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h1>CREATIVE.UNIQUE.AFFORDABLE</h1>
+						<h3>You find it all here.</h3>
+						<p>Come to Ngoi Sao Vang, you will find your satisfaction more than ever with our products and our services. We are a team of professionals who have more than 10 years experience in designing and printing.</p>
+					</div>
+					<div class="col-md-2"></div>
 				</div>
 			</div>
-			<div class="col-md-2"></div>		
 		</div>
 
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<div id="carousel-sanpham" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-sanpham" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-sanpham" data-slide-to="1"></li>
-				    <li data-target="#carousel-sanpham" data-slide-to="2"></li>
-				  </ol>
-
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-				    <div class="item active">
-				      <img src="pix/product1.png" alt="sanPham1">
-				      <div class="carousel-caption">
-				        <h3>San Pham 1</h3>
-				        <p>Cong ty ABC</p>
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="pix/product2.jpeg" alt="sanPham2">
-				      <div class="carousel-caption">
-				        <h3>San Pham 2</h3>
-				        <p>Cong ty DEF</p>
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="pix/product3.jpeg" alt="sanPham3">
-				      <div class="carousel-caption">
-				        <h3>San Pham 3</h3>
-				        <p>Cong ty XYZ</p>
-				      </div>
-				    </div>
-				  </div>
-
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-sanpham" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-sanpham" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
-				</div>
-			</div>
-			<div class="col-md-2"></div>
-		</div>
-		
-		
-
-
-		<div id="content"></div>
 
 		
 		<div id="footer"></div>
